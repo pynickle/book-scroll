@@ -1,3 +1,9 @@
+## [1.0.1](https://github.com/pynickle/book-scroll/compare/v1.0.0...v1.0.1) (2026-04-08)
+
+### 🚀 Improvements
+
+* update mod icon ([a24d09f](https://github.com/pynickle/book-scroll/commit/a24d09fc07942d42058faf0f4b46865329d27a21))
+
 ## 1.0.0 (2026-04-08)
 
 ### ✨ Features
