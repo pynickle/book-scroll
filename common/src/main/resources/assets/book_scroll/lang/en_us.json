@@ -1,0 +1,11 @@
+{
+  "text.book_scroll.help.missing": "§cCannot open config screen",
+  "text.book_scroll.desc.help.missing": "§7Install YACL to access the config in-game.",
+  "yacl3.config.book_scroll:config": "Book Scroll",
+  "yacl3.config.book_scroll:config.category.client": "Client",
+  "yacl3.config.book_scroll:config.category.client.group.book_scroll": "Book Scroll",
+  "yacl3.config.book_scroll:config.ctrlSpeedMultiplier": "Ctrl Speed Multiplier",
+  "yacl3.config.book_scroll:config.ctrlSpeedMultiplier.desc": "Scroll acceleration multiplier while holding Ctrl.",
+  "yacl3.config.book_scroll:config.enablePageTurnSound": "Enable Page Turn Sound",
+  "yacl3.config.book_scroll:config.enablePageTurnSound.desc": "Play a page-turn sound when scrolling pages."
+}

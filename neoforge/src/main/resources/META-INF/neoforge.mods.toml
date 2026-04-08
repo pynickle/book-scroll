@@ -1,0 +1,40 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "book_scroll"
+version = "${version}"
+displayName = "Book Scroll"
+authors = "ENC_Euphony"
+description = '''
+Use the mouse wheel to turn book pages.
+'''
+logoFile = "icon.png"
+
+[[dependencies.book_scroll]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.book_scroll]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+
+[[dependencies.book_scroll]]
+modId = "yet_another_config_lib_v3"
+mandatory = true
+type = "optional"
+versionRange = "[3.9,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[mixins]]
+config = "book_scroll.mixins.json"

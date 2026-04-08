@@ -1,0 +1,11 @@
+{
+  "text.book_scroll.help.missing": "§c 无法打开配置界面",
+  "text.book_scroll.desc.help.missing": "§7 安装 YACL 模组以在游戏内访问配置。",
+  "yacl3.config.book_scroll:config": "书籍滚动",
+  "yacl3.config.book_scroll:config.category.client": "客户端",
+  "yacl3.config.book_scroll:config.category.client.group.book_scroll": "书籍滚动",
+  "yacl3.config.book_scroll:config.ctrlSpeedMultiplier": "Ctrl 速度倍率",
+  "yacl3.config.book_scroll:config.ctrlSpeedMultiplier.desc": "按住 Ctrl 键时的滚动加速倍数。",
+  "yacl3.config.book_scroll:config.enablePageTurnSound": "启用翻页音效",
+  "yacl3.config.book_scroll:config.enablePageTurnSound.desc": "在滚动页面时播放翻页音效。"
+}

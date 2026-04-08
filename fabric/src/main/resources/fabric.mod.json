@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "book_scroll",
+  "version": "${version}",
+  "name": "Book Scroll",
+  "description": "Use the mouse wheel to turn book pages.",
+  "authors": [
+    "ENC_Euphony"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "icon": "assets/book_scroll/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.euphony.book_scroll.fabric.BookScrollFabric"
+    ],
+    "client": [
+      "com.euphony.book_scroll.fabric.client.BookScrollFabricClient"
+    ],
+    "modmenu": [
+      "com.euphony.book_scroll.fabric.integration.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "book_scroll.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18",
+    "minecraft": "~26.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "yet_another_config_lib_v3": ">=3.9",
+    "modmenu": "*"
+  }
+}

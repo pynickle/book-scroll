@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.euphony.book_scroll.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "minVersion": "0.8",
+  "client": [
+    "BookEditScreenMixin",
+    "BookViewScreenMixin"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
